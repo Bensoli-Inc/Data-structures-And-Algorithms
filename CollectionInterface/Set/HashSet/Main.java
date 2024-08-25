@@ -10,12 +10,12 @@ public class Main
         nums.add(5);
         nums.add(8);
         nums.add(2);
-        nums.add(6);
+        nums.add(6); // cant have a repeatedvalue
 
 
         for(int n : nums)
         {
-            System.out.println(n);
+            System.out.println(n); // cant follow sequence
         }
     }
 }
