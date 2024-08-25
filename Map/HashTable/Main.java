@@ -1,5 +1,5 @@
 import java.util.Map;
-import java.util.Hashtable;
+import java.util.Hashtable; //for synchronized threads/operations
 
 public class Main
 {
