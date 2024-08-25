@@ -37,6 +37,11 @@ public class Main
         Stream<Integer> s3 = s2.map(n -> n*2);
         s3.forEach(n -> System.out.println(n));
 
+        //shortcut
+        int result = nums.stream()
+                        .filter(n -> n%2==0)
+                        .map(n -> n*2);
+
         // int sum = 0;
         // for(int n : nums)
         // {
