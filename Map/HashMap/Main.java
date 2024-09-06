@@ -10,7 +10,7 @@ public class Main
 
         //adding values
         students.put("Ben", 88);
-        students.put("Alex", 99);
+        students.put("Alex", 979);
         students.put("Kate", 92);
         students.put("Joan", 76);
         students.put("Ben", 66);
